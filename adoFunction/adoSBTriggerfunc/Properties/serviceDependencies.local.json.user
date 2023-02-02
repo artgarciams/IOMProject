@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "storage1": {
+      "restored": true,
+      "restoreTime": "2022-03-16T18:44:33.3968248Z"
+    },
+    "appInsights1": {
+      "restored": true,
+      "restoreTime": "2022-03-16T18:44:32.5616844Z"
+    }
+  },
+  "parameters": {
+    "storage1.resourceGroupName": {
+      "Name": "storage1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "aag-ADO"
+    },
+    "storage1.subscriptionId": {
+      "Name": "storage1.subscriptionId",
+      "Type": "subscription",
+      "Value": "8cb89774-19fb-4e8a-bc03-79e02c45254e"
+    }
+  }
+}

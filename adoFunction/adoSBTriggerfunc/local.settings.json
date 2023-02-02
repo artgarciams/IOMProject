@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "PATKEY": "",
+    "CollectionUri": "https://dev.azure.com/csecodehub",
+    "government opportunity": "Government.json",
+    "m e opportunity": "meopportunity.json"
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": ""
+  }
+}

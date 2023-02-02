@@ -1,0 +1,325 @@
+{
+	"ChangeField": "Custom.Whatchanged",
+  "List": [
+    {
+      "FieldSum": "Custom.BANTValue",
+      "Order": 1,
+      "Values": [
+        {
+          "Key": "Custom.Authority",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.Budget",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.AzureSubscription",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.Need",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.TimeLine",
+          "Type": "int"
+        }
+      ]
+    },
+    {
+      "FieldSum": "Custom.CSEAlignmentValues",
+      "Order": 2,
+      "Values": [
+        {
+          "Key": "Custom.AccountTeamReadiness",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.StrategicAlignment",
+          "Type": "int"
+        }
+      ]
+    },
+    {
+      "FieldSum": "Custom.CustomerReadinessValues",
+      "Order": 3,
+      "Values": [
+        {
+          "Key": "Custom.AIEthics",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.AllignedSkillset",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.CSEEngagementModel",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.CSEProcessCode_WithResourcesIdentified",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.DomainExpertise",
+          "Type": "int"
+        }
+      ]
+    },
+    {
+      "FieldSum": "Custom.LegalValues",
+      "Order": 4,
+      "Values": [
+        {
+          "Key": "Custom.CWAA",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.NDA",
+          "Type": "int"
+        }
+      ]
+    },    
+    {
+      "FieldSum": "Custom.SecurityValues",
+      "Order": 5,
+      "Values": [
+        {
+          "Key": "Custom.AirGaprequired",
+          "Type": "boolean",
+          "TrueValue": 1,
+          "FalseValue": 0
+        },
+        {
+          "Key": "Custom.CACCardrequired",
+          "Type": "boolean",
+          "TrueValue": 1,
+          "FalseValue": 0
+        },
+        {
+          "Key": "Custom.Clearancerequired",
+          "Type": "boolean",
+          "TrueValue": 1,
+          "FalseValue": 0
+        },
+        {
+          "Key": "Custom.SecurityPlusrequired",
+          "Type": "boolean",
+          "TrueValue": 1,
+          "FalseValue": 0
+        },
+        {
+          "Key": "Custom.Tenting",
+          "Type": "boolean",
+          "TrueValue": 1,
+          "FalseValue": 0
+        },
+        {
+          "Key": "Custom.Trainingrequired",
+          "Type": "boolean",
+          "TrueValue": 1,
+          "FalseValue": 0
+        },
+        {
+          "Key": "Custom.USCitizenshiprequired",
+          "Type": "boolean",
+          "TrueValue": 1,
+          "FalseValue": 0
+        }
+      ]
+    },
+    {
+      "FieldSum": "Custom.ChecklistSummary",
+      "Order": 6,
+			"deltaField": "true",
+      "omitZero": "true",
+      "Values": [
+        {
+          "Key": "Custom.BANTValue",
+          "Type": "decimal"
+        },
+        {
+          "Key": "Custom.CSEAlignmentValues",
+          "Type": "decimal"
+        },
+        {
+          "Key": "Custom.CustomerReadinessValues",
+          "Type": "decimal"
+        },
+        {
+          "Key": "Custom.LegalValues",
+          "Type": "decimal"
+        }
+      ]
+    },
+    {
+      "FieldSum": "Custom.ex_csereadiness_value",
+      "Order": 7,
+      "Values": [
+        {
+          "Key": "Custom.ex_proposed_solution",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_requiredaccess",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_understandscope",
+          "Type": "int"
+        }
+      ]
+    },
+    {
+      "FieldSum": "Custom.ex_customer_value",
+      "Order": 8,
+      "Values": [
+        {
+          "Key": "Custom.ex_codewithteam",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_resourcesrequired",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_sponsortimeline",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_timeline",
+          "Type": "int"
+        }
+      ]
+    },   
+    {
+      "FieldSum": "Custom.ex_domain_value",
+      "Order": 9,
+      "Values": [
+        {
+          "Key": "Custom.ex_articulate_need",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_examplestoshare",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_understand_users",
+          "Type": "int"
+        }
+      ]
+    },
+    {
+      "FieldSum": "Custom.ex_engineer_value",
+      "Order": 10,
+      "Values": [
+        {
+          "Key": "Custom.ex_architecture_defined",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_codewith_maturity",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_complexity",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_datasource_available",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_e2e",
+          "Type": "boolean",
+          "TrueValue": 0,
+          "FalseValue": 3
+        },
+        {
+          "Key": "Custom.ex_hyperScale",
+          "Type": "boolean",
+          "TrueValue": 0,
+          "FalseValue": 3
+        },
+        {
+          "Key": "Custom.ex_reuse",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_service_req",
+          "Type": "boolean",
+          "TrueValue": 0,
+          "FalseValue": 3
+        },
+        {
+          "Key": "Custom.ex_styling_req",
+          "Type": "boolean",
+          "TrueValue": 0,
+          "FalseValue": 3
+        },
+        {
+          "Key": "Custom.ex_technical_constraints",
+          "Type": "int"
+        }
+      ]
+    },
+    {
+      "FieldSum": "Custom.ex_Strategic_align_value",
+      "Order": 11,
+      "Values": [
+        {
+          "Key": "Custom.ex_aligntotoplevel",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_buildsonwork",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_expected_outcome",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_productgroup_align",
+          "Type": "int"
+        },
+        {
+          "Key": "Custom.ex_aligntotoplevel",
+          "Type": "int"
+        }
+      ]
+    },
+    {
+      "FieldSum": "Custom.ExplorationSummary",
+      "Order": 12,
+			"deltaField": "true",
+      "omitZero" : "true",
+      "Values": [
+        {
+          "Key": "Custom.ex_csereadiness_value",
+          "Type": "decimal"
+        },
+        {
+          "Key": "Custom.ex_customer_value",
+          "Type": "decimal"
+        },
+        {
+          "Key": "Custom.ex_Strategic_align_value",
+          "Type": "decimal"
+        },
+        {
+          "Key": "Custom.ex_domain_value",
+          "Type": "decimal"
+        },
+        {
+          "Key": "Custom.ex_engineer_value",
+          "Type": "decimal"
+        }
+      ]
+    }
+
+
+  ]
+}
